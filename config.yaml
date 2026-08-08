@@ -1,5 +1,5 @@
 name: connormxy's LiteLLM Proxy
-version: "1.0.6"
+version: "1.0.7"
 slug: litellm_proxy
 description: "LiteLLM Proxy - Universal LLM API Gateway for Home Assistant"
 url: "https://github.com/BerriAI/litellm"
@@ -11,12 +11,12 @@ boot: manual
 init: false
 map:
   - type: addon_config
-    read_only: False
+    read_only: false
     path: /config/addons_config/litellm/
   - share
-    read_only: False
+    read_only: false
   - media
-    read_only: False
+    read_only: false
   - ssl
 ports:
   4000/tcp: 4000
@@ -27,7 +27,6 @@ options:
   log_level: "INFO"
   master_key: ""
 schema:
-  port: "port"
   config_file: "str"
   log_level: "list(DEBUG|INFO|WARNING|ERROR)?"
   master_key: "str?"
