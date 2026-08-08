@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     jq \
     && rm -rf /var/lib/apt/lists/* \
     && python3 -m pip install --upgrade pip \
-    && pip3 install --no-cache-dir "litellm[proxy]" "fastapi<0.141.0"
+    && pip3 install --no-cache-dir "litellm[proxy]" "fastapi<0.140.0"
 
 # Copy run script
 COPY run.sh /
