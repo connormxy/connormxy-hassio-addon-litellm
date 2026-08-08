@@ -1,5 +1,5 @@
 name: connormxy's LiteLLM Proxy
-version: "1.0.4"
+version: "1.0.5"
 slug: litellm_proxy
 description: "LiteLLM Proxy - Universal LLM API Gateway for Home Assistant"
 url: "https://github.com/BerriAI/litellm"
