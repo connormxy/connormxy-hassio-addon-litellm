@@ -1,4 +1,4 @@
-name: LiteLLM Proxy
+name: connormxy's LiteLLM Proxy
 version: "1.0.3"
 slug: litellm_proxy
 description: "LiteLLM Proxy - Universal LLM API Gateway for Home Assistant"
