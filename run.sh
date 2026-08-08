@@ -17,7 +17,7 @@ echo "Config file: ${config_file}"
 echo "Log level: ${log_level}"
 
 # Check if config file exists in the correct addon config directory
-config_path="/config/${config_file}"
+config_path="/config/addons_config/litellm/${config_file}"
 if [[ -f "${config_path}" ]]; then
     echo "Using config file from /config/addons_config/litellm/${config_file}"
 else
