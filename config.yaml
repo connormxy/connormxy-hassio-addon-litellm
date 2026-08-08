@@ -13,11 +13,11 @@ map:
   - type: addon_config
     read_only: false
     path: /config/addons_config/litellm/
-  - share
+  - type: share
     read_only: false
-  - media
+  - type: media
     read_only: false
-  - ssl
+  - type: ssl
 ports:
   4000/tcp: 4000
 ports_description:
